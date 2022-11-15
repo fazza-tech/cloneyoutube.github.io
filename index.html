@@ -1,475 +1,480 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="google-site-verification" content="cu2Jp8PMmjYXFf2vKm7CVLWxIJ-XP3eQjIre_THNDRk" />
-    
-    <title>YouTube.com Clone</title>
-    <link rel="icon" type="image/x-icon" href="/general-img/youtube_logo_icon_168737.ico">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<head>
+  <meta name="google-site-verification" content="cu2Jp8PMmjYXFf2vKm7CVLWxIJ-XP3eQjIre_THNDRk" />
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    
-  </head>
-  <body>
-    <header class="header">
-      <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="icons/youtube-logo.svg">
-      </div>
-      <div class="middle-section">
-        <input class="search-bar" type="text" placeholder="Search">
-        <button class="search-button">
-          <img class="search-icon" src="icons/search.svg">
-          <div class="tooltip">Search</div>
-        </button>
-        <!-- Put position absolute inside position relative -->
-        <button class="voice-search-button">
-          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-          <div class="tooltip">Search with your voice</div>
-        </button>
-      </div>
-      <div class="right-section">
-        <div class="upload-icon-container">
-          <img class="upload-icon" src="icons/upload.svg">
-          <div class="tooltip">Create</div>
-        </div>
-        
-        <div class="notifications-icon-container">
-          <img class="notifications-icon" src="icons/notifications.svg">
-          <div class="notifications-count">3</div>
-        </div>
-        <img class="current-user-picture" src="channel-pictures/profile.jpg">
-      </div>
-    </header>
+  <title>YouTube.com Clone</title>
+  <link rel="icon" type="image/x-icon" href="/general-img/youtube_logo_icon_168737.ico">
 
-    <nav class="sidebar">
-      <div class="sb-sec-1">
-        <div class="sidebar-link">
-          <img src="/icons-sidebar/home.svg">
-          <div>Home</div>
-        </div>
-        <div class="sidebar-link shorts">
-          <img src="icons-sidebar/short-icn.svg">
-          <div>Shorts</div>
-        </div>
-        <div class="sidebar-link">
-          <img src="icons-sidebar/subscriptions.svg">
-          <div>Subscriptions</div>
-        </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <!-- Put position absolute inside position relative -->
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
       </div>
-      <div class="sb-ruler">
-        <hr>
+
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/profile.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sb-sec-1">
+      <div class="sidebar-link">
+        <img src="/icons-sidebar/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link shorts">
+        <img src="icons-sidebar/short-icn.svg">
+        <div>Shorts</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons-sidebar/library.svg">
-        <div>Library</div>
+        <img src="icons-sidebar/subscriptions.svg">
+        <div>Subscriptions</div>
       </div>
-      <div class="sidebar-link">
-        <img src="icons-sidebar/history-icn.svg">
-        <div>History</div>
+    </div>
+    <div class="sb-ruler">
+      <hr>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-sidebar/library.svg">
+      <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-sidebar/history-icn.svg">
+      <div>History</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-sidebar/yourVideos-icn.svg">
+      <div>Your videos</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-sidebar/watchLater-icn.svg">
+      <div>Watch later</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-sidebar/likedVideos-icn.svg">
+      <div>Liked videos</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-sidebar/showmore-icn.svg">
+      <div>Show more</div>
+    </div>
+    <div class="sb-ruler">
+      <hr>
+    </div>
+    <div>Subscriptions</div>
+    <div class="sidebar-link">
+      <img class="netflix-live" src="channel-pictures/netflix.jpg">
+      <div>Show more</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">3:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/brototype-logo.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn web designing for free in 20 days | Starts on October 1st
+            </p>
+            <p class="video-author">
+              Brototype
+            </p>
+            <p class="video-stats">
+              58k views &#183; 1 months ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="sidebar-link">
-        <img src="icons-sidebar/yourVideos-icn.svg">
-        <div>Your videos</div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">2:36</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/SimplyTech-logo.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Day In The Life Of Sundar Pichai (Google's CEO)
+            </p>
+            <p class="video-author">
+              Simply Tech
+            </p>
+            <p class="video-stats">
+              6.4M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="sidebar-link">
-        <img src="icons-sidebar/watchLater-icn.svg">
-        <div>Watch later</div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/netflix-strangerthings.webp">
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/netflix.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Stranger Things Season 4 Bloopers | Netflix
+            </p>
+            <p class="video-author">
+              Netflix
+            </p>
+            <p class="video-stats">
+              2M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="sidebar-link">
-        <img src="icons-sidebar/likedVideos-icn.svg">
-        <div>Liked videos</div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/envanto.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Web Design for Beginners | FREE COURSE
+            </p>
+            <p class="video-author">
+              Envanto tuts+
+            </p>
+            <p class="video-stats">
+              1.7M views &#183; 7 months ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="sidebar-link">
-        <img src="icons-sidebar/showmore-icn.svg">
-        <div>Show more</div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Marques Brownlee.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              World's First Intel ARC PC Build! (A770)
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              2.5M views &#183; 1 month ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="sb-ruler">
-        <hr>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/dayinthelife.webp">
+          <div class="video-time">12:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Andrew Ethan Zeng.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Day in the Life of a Young Entrepreneur – The REAL Routine
+            </p>
+            <p class="video-author">
+              MrBeast
+            </p>
+            <p class="video-stats">
+              40k views &#183; 13 days ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div>Subscriptions</div>
-      <div class="sidebar-link">
-        <img class="netflix-live" src="channel-pictures/netflix.jpg">
-        <div>Show more</div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/calmeshazamwakanda.webp">
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/callmeshazamlife.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Wakanda Forever | My Opinion | Marvel | Malayalam
+            </p>
+            <p class="video-author">
+              LifeofShazzam
+            </p>
+            <p class="video-stats">
+              254k views &#183; 1 day ago
+            </p>
+          </div>
+        </div>
       </div>
-    </nav>
 
-    <main>
-      <section class="video-grid">
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">3:40</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/houseofthe dragon.webp">
+          <div class="video-time">2:43</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/hbomax.jpg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/brototype-logo.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Learn web designing for free in 20 days | Starts on October 1st
-              </p>
-              <p class="video-author">
-                Brototype
-              </p>
-              <p class="video-stats">
-                58k views &#183; 1 months ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              House of the Dragon | Official Trailer | HBO Max
+            </p>
+            <p class="video-author">
+              HBO Max
+
+            </p>
+            <p class="video-stats">
+              23M views &#183; 3 months ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-            <div class="video-time">2:36</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/ittooks7years.webp">
+          <div class="video-time">3:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/bpsSpace.jpg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/SimplyTech-logo.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                A Day In The Life Of Sundar Pichai (Google's CEO)
-              </p>
-              <p class="video-author">
-                Simply Tech
-              </p>
-              <p class="video-stats">
-                6.4M views &#183; 1 year ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              I Landed A Rocket Like SpaceX - Scout F
+            </p>
+            <p class="video-author">
+              BPS.space
+
+            </p>
+            <p class="video-stats">
+              5.2M views &#183; 3 months ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/netflix-strangerthings.webp">
-            <div class="video-time">9:13</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">2:36</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/SimplyTech-logo.jpg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/netflix.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Stranger Things Season 4 Bloopers | Netflix
-              </p>
-              <p class="video-author">
-                Netflix
-              </p>
-              <p class="video-stats">
-                2M views &#183; 4 months ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Day In The Life Of Sundar Pichai (Google's CEO)
+            </p>
+            <p class="video-author">
+              Simply Tech
+            </p>
+            <p class="video-stats">
+              6.4M views &#183; 1 year ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
-            <div class="video-time">22:09</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/netflix-strangerthings.webp">
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/netflix.jpg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The Simplest Math Problem No One Can Solve - Collatz Conjecture
-              </p>
-              <p class="video-author">
-                Veritasium
-              </p>
-              <p class="video-stats">
-                18M views &#183; 4 months ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              Stranger Things Season 4 Bloopers | Netflix
+            </p>
+            <p class="video-author">
+              Netflix
+            </p>
+            <p class="video-stats">
+              2M views &#183; 4 months ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">11:17</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/whocaresabtmeta.webp">
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Marques Brownlee.jpg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Kadane's Algorithm to Maximum Sum Subarray Problem
-              </p>
-              <p class="video-author">
-                CS Dojo
-              </p>
-              <p class="video-stats">
-                519K views &#183; 5 years ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              Who Cares About the Metaverse?
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              7.2M views &#183; 2 weeks ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">19:59</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">
+              CS Dojo
+            </p>
+            <p class="video-stats">
+              519K views &#183; 5 years ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">19:59</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I’ll Pay For
+            </p>
+            <p class="video-author">
+              MrBeast
+            </p>
+            <p class="video-stats">
+              141M views &#183; 1 year ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">19:59</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I’ll Pay For
+            </p>
+            <p class="video-author">
+              MrBeast
+            </p>
+            <p class="video-stats">
+              141M views &#183; 1 year ago
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">3:40</div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/brototype-logo.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Learn web designing for free in 20 days | Starts on October 1st
-              </p>
-              <p class="video-author">
-                Brototype
-              </p>
-              <p class="video-stats">
-                58k views &#183; 1 months ago
-              </p>
-            </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I’ll Pay For
+            </p>
+            <p class="video-author">
+              MrBeast
+            </p>
+            <p class="video-stats">
+              141M views &#183; 1 year ago
+            </p>
           </div>
         </div>
+      </div>
+    </section>
+  </main>
+</body>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-            <div class="video-time">2:36</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/SimplyTech-logo.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                A Day In The Life Of Sundar Pichai (Google's CEO)
-              </p>
-              <p class="video-author">
-                Simply Tech
-              </p>
-              <p class="video-stats">
-                6.4M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/netflix-strangerthings.webp">
-            <div class="video-time">9:13</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/netflix.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Stranger Things Season 4 Bloopers | Netflix
-              </p>
-              <p class="video-author">
-                Netflix
-              </p>
-              <p class="video-stats">
-                2M views &#183; 4 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
-            <div class="video-time">22:09</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The Simplest Math Problem No One Can Solve - Collatz Conjecture
-              </p>
-              <p class="video-author">
-                Veritasium
-              </p>
-              <p class="video-stats">
-                18M views &#183; 4 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">11:17</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Kadane's Algorithm to Maximum Sum Subarray Problem
-              </p>
-              <p class="video-author">
-                CS Dojo
-              </p>
-              <p class="video-stats">
-                519K views &#183; 5 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">19:59</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">19:59</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">19:59</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
