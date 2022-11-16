@@ -38,7 +38,7 @@
   .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 9rem;
+    margin-left: 10.5rem;
     column-gap: 16px;
     row-gap: 40px;
   }

@@ -1,10 +1,10 @@
 .sidebar {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: -5rem;
   top: 55px;
   background-color: white;
-  width: 200px;
+  width: 220px;
   height: 800px;
   z-index: 200;
   padding: 0 12px;
@@ -16,7 +16,7 @@
 
 .sidebar-link {
   height: 45px;
-  width: 90%;
+  width: 95%;
   margin-left: 5px;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
 
 .sidebar-link div {
   flex: 1;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   margin-left: 15px;
@@ -99,4 +99,29 @@
 
 .live-sub {
   margin-right: 15px;
+}
+
+.footer{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.footer-links{
+  font-size: 13px;
+  font-weight: 500;
+  color: #606060;
+  text-decoration: none;
+  text-align: justify;
+  margin-left: 1rem;
+}
+.copyright{
+  font-size: 12px;
+  font-weight: 400;
+  color: #909090;
+  text-decoration: none;
+  margin-left: 1rem;
+  
+}
+.spacing-copyright{
+  background-color: white;
+  height: 50px;
 }
