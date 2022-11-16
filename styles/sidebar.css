@@ -1,60 +1,102 @@
 .sidebar {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 55px;
-    background-color: white;
-    width: 200px;
-    height: 800px;
-    z-index: 200;
-    padding: 0 12px;
-  }
-  
-  .sidebar-link {
-    height: 45px;
-    width: 90%;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    cursor: pointer;
-  }
-  
-  .sidebar-link:hover {
-    background-color: rgb(235, 235, 235);
-    border-radius: 10px;
-  }
-  
-  .sidebar-link img {
-    flex: .3;
-    height: 24px;
-    margin-bottom: 4px;
-  }
-  
-  .sidebar-link div {
-    flex: 1;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-left: 15px;
-    
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 200px;
+  height: 800px;
+  z-index: 200;
+  padding: 0 12px;
+  float: left;
 
-  /*subscription*/
+  overflow-y: auto;
+  height: 100%;
+}
 
-  .subscription-header{
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    font-weight: 400;
+.sidebar-link {
+  height: 45px;
+  width: 90%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.sidebar-link img {
+  flex: .3;
+  height: 24px;
+
+}
+
+.sidebar-link div {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+
+}
+.sb-sec-1 h2{
+ 
     padding: 6px 12px 4px;
 
-  }
-  .logo-sub img{
-    padding-bottom: -5px;
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
-    border-radius: 50%;
+    font-size: 1.2rem;
+    
+    font-weight: 400;
+}
+/*subscription*/
 
-  }
+
+.sidebar-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: 400;
+  line-height: 24px;
+
+
+
+}
+
+.sidebar-sub:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.subscription-header {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  padding: 6px 12px 4px;
+
+}
+
+.logo-sub img {
+
+  flex-direction: .3;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.name-sub {
+  flex: .9;
+  margin-left: 25px;
+}
+
+.live-sub {
+  margin-right: 15px;
+}
