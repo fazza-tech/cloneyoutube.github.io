@@ -4,23 +4,26 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;
+    width: 200px;
     height: 800px;
     z-index: 200;
     padding-top: 5px;
   }
   
   .sidebar-link {
-    height: 74px;
+    height: 45px;
+    width: 90%;
+    margin-left: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     cursor: pointer;
   }
   
   .sidebar-link:hover {
     background-color: rgb(235, 235, 235);
+    border-radius: 10px;
   }
   
   .sidebar-link img {
