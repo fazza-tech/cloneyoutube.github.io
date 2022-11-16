@@ -27,24 +27,33 @@
   }
   
   .sidebar-link img {
+    flex: .3;
     height: 24px;
     margin-bottom: 4px;
   }
   
   .sidebar-link div {
+    flex: 1;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-left: 15px;
     
   }
 
   /*subscription*/
 
+  .subscription-header{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    padding: 6px 12px 4px;
 
-  .netflix-live{
+  }
+  .netflix-live img{
     width: 20px;
     height: 20px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 50%;
 
   }
