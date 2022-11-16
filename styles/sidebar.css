@@ -7,7 +7,7 @@
     width: 200px;
     height: 800px;
     z-index: 200;
-    padding-top: 5px;
+    padding: 0 12px;
   }
   
   .sidebar-link {
@@ -32,7 +32,10 @@
   }
   
   .sidebar-link div {
-    font-size: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
   }
 
   /*subscription*/
