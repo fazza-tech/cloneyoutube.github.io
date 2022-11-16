@@ -37,7 +37,8 @@
   
   .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 9rem;
     column-gap: 16px;
     row-gap: 40px;
   }
@@ -46,7 +47,7 @@
     border-radius: 10px;
   }
   
-  @media (max-width: 750px) {
+ /* @media (max-width: 750px) {
     .video-grid {
       grid-template-columns: 1fr 1fr;
     }
@@ -63,7 +64,7 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
-  
+  */
   .video-time {
     font-size: 12px;
     font-weight: 500;
