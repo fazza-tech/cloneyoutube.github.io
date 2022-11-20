@@ -14,21 +14,12 @@
   height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-.footer{
+.footer {
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
-.footer-links{
+
+.footer-links {
   font-size: 13px;
   font-weight: 500;
   color: #606060;
@@ -36,18 +27,15 @@
   text-align: justify;
   margin-left: 1rem;
 }
-.copyright{
+
+.copyright {
   font-size: 12px;
   font-weight: 400;
   color: #909090;
   text-decoration: none;
   margin-left: 1rem;
-  
+
 }
-
-
-
-
 
 
 .sidebar {
@@ -70,7 +58,8 @@
   cursor: pointer;
   height: 40px;
 }
-.active{
+
+.active {
   background-color: #eeeeee;
   border-radius: 10px;
 }
@@ -84,79 +73,91 @@
   margin-right: 24px;
 }
 
-.chrome{
+.chrome {
   color: white;
 }
-.text{
+
+.text {
   margin-left: 1.4rem;
 }
-#youtube{
-color: red;
-position: relative;
-border-radius: 50%;
-width: 25px;
-height: 25px;
-}
-.premium{
-  margin-left: 1.4rem;
-}
-#studio{
-  color: red;
-  position: relative;
-border-radius: 50%;
-width: 25px;
-height: 25px;
-}
-#utub-mus{
-  color: red;
+
+#youtube {
   position: relative;
   border-radius: 50%;
   width: 25px;
   height: 25px;
 }
-#news-live{
+
+.premium {
+  margin-left: 1.4rem;
+}
+
+#studio {
+  position: relative;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+#utub-mus {
+
+  position: relative;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+#news-live {
   position: relative;
   margin-left: 1.5rem;
   height: 25px;
   width: 25px;
 }
-#kids{
-  color: red;
+
+#kids {
+
   position: relative;
   border-radius: 50%;
   width: 25px;
   height: 25px;
 }
-#tv{
-  color: red;
+
+#tv {
   position: relative;
   border-radius: 50%;
   width: 25px;
   height: 25px;
 }
-.about{
+
+.about {
   color: #888;
   margin-left: 2rem;
 }
-.terms{
+
+.terms {
   color: #888;
   margin-left: 2rem;
   margin-top: 0.5rem;
 }
-.copyright{
+
+.copyright {
   color: #aaa;
   margin-left: 2rem;
   margin-top: 0.5rem;
 }
 
-.sidebar-icons{
+.sidebar-icons {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   position: relative;
-  }
+}
 
-  .spacing-copyright{
-    background-color: white;
-    height: 50px;
-  }
+.spacing-copyright {
+  background-color: white;
+  height: 50px;
+}
+
+.sb-ruler {
+  color: 5px solid rgb(255, 4, 4);
+}
